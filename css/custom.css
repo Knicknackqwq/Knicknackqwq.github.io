@@ -508,7 +508,7 @@ div#archive {
   background-size: 100%;
 }
 [data-theme="dark"] #aside-content > .card-widget.card-info {
-  background-image: url(/img/info_bg.png);
+  background-image: url(https://cloudsource.pages.dev/img/background/info_bg_dark.png);
   background-repeat: no-repeat;
   background-attachment: inherit;
   background-size: 100%;
