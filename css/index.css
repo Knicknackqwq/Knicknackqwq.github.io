@@ -3723,7 +3723,7 @@ figure.highlight pre .javascript .function {
 }
 #nav .site-name {
   text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
-  font-weight: bold;
+  font-weight: 700;
 }
 #nav .menus_items {
   display: inline;
@@ -3732,6 +3732,7 @@ figure.highlight pre .javascript .function {
   position: relative;
   display: inline-block;
   padding: 0 0 0 14px;
+  font-weight: 700;
 }
 #nav .menus_items .menus_item:hover .menus_item_child {
   display: block;
