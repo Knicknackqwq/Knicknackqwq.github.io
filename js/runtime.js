@@ -21,7 +21,7 @@ function createtime() {
     let currentTimeHtml = "";
        currentTimeHtml = `<div style="font-size:13px;font-weight:bold">
         本站居然运行了 ${dnum} 天 ${hnum} 小时 ${mnum} 分 ${snum} 秒 
-        <i id="heartbeat" class="fas fa-heartbeat"></i><br></div><font size=2px>一定有一个宝藏🎁，在某个地方(≧﹏ ≦)；一起再到处走走，也晒晒太阳☀️</font>`;
+        <i id="heartbeat" class="fas fa-heartbeat"></i><br></div><font size=2px>星际闪耀光影🎆，落入你的眼睛</font>`;
     
     document.getElementById("workboard") &&
         (document.getElementById("workboard").innerHTML = currentTimeHtml);
