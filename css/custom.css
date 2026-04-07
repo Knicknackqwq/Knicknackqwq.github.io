@@ -41,7 +41,15 @@
   left: -40px;
 }
 
-
+/* 首页分类标签限制长度 */
+.truncate-category {
+  display: inline-block;
+  max-width: 99px;       /* 你可以根据需要调整最大宽度 */
+  vertical-align: bottom;
+  overflow: hidden;
+  text-overflow: ellipsis; /* 关键：超出部分显示省略号 */
+  white-space: nowrap;     /* 关键：强制不换行 */
+}
 
 /* 文章页H1-H6图标样式效果 */
 /* 控制风车转动速度 4s那里可以自己调节快慢 */
